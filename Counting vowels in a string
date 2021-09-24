@@ -1,0 +1,7 @@
+string = str(input("enter the word"))
+vowels = "aeiou"
+count = 0
+for i in string:
+	if i in vowels:
+		count += 1
+print("vowles in a string are:",count) 
