@@ -1,0 +1,13 @@
+name=str(input("Enter a word:"))
+
+a=len(name)
+
+for i in range(0,a):
+
+    for j in range(i+1,a):
+
+        if(name[i]==name[j]):
+
+            print("The repeated character is:");
+
+            print(name[j]);
