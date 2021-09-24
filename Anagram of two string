@@ -1,0 +1,16 @@
+def anagram():
+	if len(first_string) == len(second_string):
+		if(sortstring1 == sortstring2):
+			print("The two strings are anagram of each other")
+		else:
+			print("The two strings are not anagram of each other")
+		
+	else:
+		print("The two strings are not anagram of each other")
+first_string = str(input("enter the first string:"))
+second_string = str(input("enter the second string:"))
+str1 = first_string.lower()
+str2 = second_string.lower()
+sortstring1 = sorted(str1)
+sortstring2 = sorted(str2)
+anagram()
